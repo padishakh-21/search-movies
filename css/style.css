@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Acme';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/acme-v18-latin-regular.woff2') format('woff2'), url('../fonts/acme-v18-latin-regular.woff') format('woff');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+
+body {
+    font-family: 'Acme';
+}
+
+h2:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+}
+
+li {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    border-color: rgb(255, 0, 119) !important;
+    cursor: pointer;
+}
+
+li:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+}
+
+input {
+    width: 370px !important;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #0D6EFD !important;
+    color: #0D6EFD !important;
+}
+
+a {
+    text-decoration: none
+}
